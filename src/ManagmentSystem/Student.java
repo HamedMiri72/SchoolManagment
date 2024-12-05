@@ -51,4 +51,35 @@ public class Student {
         this.feesTotal = feesTotal;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getGrade() {
+        return grade;
+    }
+
+    public int getFeesTotal() {
+        return feesTotal;
+    }
+
+    public int getFeesPaid() {
+        return feesPaid;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setFeesPaid(int feesPaid) {
+        this.feesPaid = feesPaid;
+    }
 }
